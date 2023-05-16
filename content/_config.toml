@@ -1,0 +1,8 @@
+host_url = "https://www.example.com"
+framework = "pico"
+title_suffix = " — dirt"
+
+[menu]
+	Home = "/"
+	Documentation = "/doc/index.html"
+

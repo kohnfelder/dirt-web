@@ -9,7 +9,7 @@ or [full documentation overview](doc/index.html)
 
 * Author: Loren Kohnfelder (Copyright 2022-2023)
 
-* Contributors: Andreas Happe (basic packaging and testing with poetry)
+* Contributors: Andreas Happe (basic packaging, testing with poetry, deployment)
 
 ## Origin Story
 

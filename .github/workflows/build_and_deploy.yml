@@ -41,11 +41,11 @@ jobs:
         python -m pip install dirt-ssg
     - name: Generate Site
       run: dirt
-    - name: Upload artifact
+    - name: Create and upload the github-pages artifact
       uses: actions/upload-pages-artifact@v1
       with:
-        # Upload entire repository
+        # use the files within the public directory
         path: './public'
-    - name: Deploy to GitHub Pages
+    - name: Deploy github-pages artifact as GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2

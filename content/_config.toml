@@ -1,6 +1,7 @@
 host_url = "https://www.example.com"
 framework = "pico"
 title_suffix = " — dirt"
+follow_links = "y"
 
 [menu]
 	Home = "/"
